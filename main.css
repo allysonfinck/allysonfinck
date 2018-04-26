@@ -1,0 +1,203 @@
+
+/* NAV */
+.brand-logo {
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+/* MAIN */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("images/color5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h5 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box1 {
+  width: 100vw;
+  height: auto;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.5);
+}
+
+.profileImg {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-image: url('images/self.jpg');
+  background-size: cover;
+}
+
+.titleText {
+  text-align: center;
+}
+
+.box2 {
+  width: 100vw;
+  height: auto;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.5);
+}
+
+.aboutText {
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 50px;
+}
+
+.box2B {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsImg {
+  width: 50%;
+  height: 50%;
+  /* margin: 50px 50px; */
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.skillsContainer {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.skillcontainer {
+  margin-right: 80px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+
+.javascript {
+  width: 90%;
+  background-color: #4CAF50;
+  } /* Green */
+
+.ruby {
+  width: 75%;
+  background-color: #2196F3;
+  } /* Blue */
+
+.angular {
+  width: 70%;
+  background-color: #f44336;
+  } /* Red */
+
+.sql {
+  width: 80%;
+  background-color: #808080;
+  } /* Dark Grey */
+
+.jquery {
+  width: 70%;
+  background-color: yellow;
+  } /* Dark Grey */
+
+.box3 {
+  width: 100vw;
+  height: auto;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.5);
+}
+
+.portfolioContainer {
+  width: 80vw;
+  height: auto;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolioCard {
+  width: 25vw;
+  height: 25vh;
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.5);
+}
+
+.portfolioCard img {
+  width: 100%;
+  height: 100%;
+}
+
+.box4 {
+  width: 100vw;
+  height: auto;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.5);
+}
+
+/* CONTACT */
+.contactIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.phoneIcons, .emailIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h6 {
+  margin-left: 20px;
+}
+
+/* FOOTER */
+footer {
+  box-shadow: 1px 2px 18px rgb(0, 0, 0, 0.5);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-top: -8px;
+}
